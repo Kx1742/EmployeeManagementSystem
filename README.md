@@ -24,7 +24,7 @@ This project implements a simple yet comprehensive Employee Management System us
 ### Clone the repository
 
 ```bash
-git clone <repository_url>
+git clone [<repository_url>](https://github.com/Kx1742/EmployeeManagementSystem.git)
 cd employee-management-system
 ```
 ## Build the project
@@ -33,12 +33,12 @@ cd employee-management-system
 
 ```bash
 mvn clean install -U 
-
+```
 ## Run the application
 ### If using Maven:
 ```bash
 mvn spring-boot:run
-
+```
 ### The application will start at http://localhost:8080.
 
 
@@ -107,6 +107,7 @@ Use the following credentials to access the APIs:
 - **Security Implementation**: Basic authentication to secure API endpoints.
 ```bash
 curl -u admin:password http://localhost:8080/api/employees
+```
 - **Testing**: Unit and integration tests using JUnit and Spring Test.
 - **Exception Handling**: Global exception handling with custom error messages.
 - **Data Validation**: Validation of request payloads using Spring's validation annotations (applied to Employee operations).
