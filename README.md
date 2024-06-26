@@ -24,7 +24,7 @@ This project implements a simple yet comprehensive Employee Management System us
 ### Clone the repository
 
 ```bash
-git clone [<repository_url>](https://github.com/Kx1742/EmployeeManagementSystem.git)
+git clone https://github.com/Kx1742/EmployeeManagementSystem.git
 cd employee-management-system
 ```
 ## Build the project
@@ -41,12 +41,6 @@ mvn spring-boot:run
 ```
 ### The application will start at http://localhost:8080.
 
-
-## API Documentation
-
-### Swagger UI
-
-Navigate to [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html) for detailed API documentation.
 
 ### API Endpoints
 
